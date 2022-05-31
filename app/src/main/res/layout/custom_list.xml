@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/userId"
+        android:text="HouseNumber"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userName"
+        android:text="UserName"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/name"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:drawablePadding="10dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userEmail"
+        android:text="UserEmail"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/email"
+        android:padding="10dp"
+       android:drawablePadding="10dp"
+        android:layout_margin="15dp"
+        android:layout_marginHorizontal="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userPassword"
+        android:text="UserPassword"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/password"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:drawablePadding="10dp"
+
+        />
+
+
+
+
+
+</LinearLayout>
